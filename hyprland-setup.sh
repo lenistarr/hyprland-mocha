@@ -1,9 +1,9 @@
 #!/bin/bash
 # Basic home folder setup
 mv ~/bash_profile ~/.bash_profile && mv ~/bashrc ~/.bashrc
-mkdir ~/documents ~/downloads ~/pictures ~/videos
-mkdir ~/pictures/screenshots
-mv ~/config/* ~/.config && rm -r ~/config
+mkdir ~/documents ~/downloads ~/pictures ~/pictures/screenshots ~/pictures/wallpapers ~/videos
+mv ~/config/* ~/.config
+rm -r ~/config
 
 # Administration and customization
 sudo mv ~/themes/* /usr/share/themes
