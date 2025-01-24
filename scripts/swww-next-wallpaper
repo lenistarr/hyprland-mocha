@@ -1,0 +1,3 @@
+#!/bin/bash
+pkill swww-random
+swww-random ~/pictures/wallpapers/nsfw
