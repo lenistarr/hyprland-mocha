@@ -1,6 +1,5 @@
 #!/bin/bash
 # Basic home folder setup
-mv ~/bash_profile ~/.bash_profile && mv ~/bashrc ~/.bashrc
 mkdir ~/documents ~/downloads ~/pictures ~/pictures/screenshots ~/pictures/wallpapers ~/videos
 mv ~/config/* ~/.config
 rm -r ~/config
