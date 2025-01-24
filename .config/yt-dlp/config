@@ -1,0 +1,1 @@
+-o "~/downloads/%(title)s.%(ext)s"
