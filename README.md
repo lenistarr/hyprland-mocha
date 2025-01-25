@@ -7,9 +7,12 @@ Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox
 Wallpaper change is automatically enabled. If the folder is empty the script can cause high cpu usage so do not be surprised. To disable it
 <dl><dd>
 <pre>
-<b>vim ~/.config/hypr/hyprland.conf</b> # Change <i>exec-once = swww-random ~/pictures/wallpapers &</i> to <i>exec-once = swww ~/path/to/img</i> and then rebind or remove "bind = CONTROL,         P,          exec,                   swww-next-wallpaper". 
+vim ~/.config/hypr/hyprland.conf # <i>Change "exec-once = swww-random ~/pictures/wallpapers &" to "exec-once = swww ~/path/to/img"</i>
 </pre>
 </dd></dl>
+
+ and then rebind or remove "bind = CONTROL,         P,          exec,                   swww-next-wallpaper". 
+
 Use the script at your own discretion.
 
 # Installation
