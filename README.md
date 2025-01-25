@@ -1,5 +1,5 @@
-## Auto Install Script for Minimal Hyprland with Catppuccin Mocha Mauve Theme 
-# Important Notice
+# Auto Install Script for Minimal Hyprland with Catppuccin Mocha Mauve Theme 
+## Important Notice
 Work in progress. Best done on a clean install of Arch Linux. Uses master tiling layout. 
 
 Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings.
@@ -17,13 +17,13 @@ You can also rebind or remove the key combination that cycles wallpapers in hypr
 
 Use the script at your own discretion.
 
-# Installation
+## Installation
 ```
 curl -LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/main/hyprland-setup.sh
 chmod +x hyprland-setup.sh
 sh hyprland-setup.sh
 ```
-# Other 
+## Other 
 The keyboard layout and bindings are configured according to the German/Croatian QWERTZ layout. Change it manually in ~/.config/hypr/hyprland.conf under <i>kb_layout = [keyboard layout]</i>.
 
 Install Nvidia drivers manually. Install AUR manually.
