@@ -4,14 +4,7 @@ Work in progress. Best done on a clean install of Arch Linux. Uses master tiling
 
 Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings. Try the theme at https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-mauve-git/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search.
 
-Wallpaper change is automatically enabled via script. If the folder is empty the script can cause high cpu usage, so do not be surprised. To disable it:
-<dl><dd>
-<pre>
-vim ~/.config/hypr/hyprland.conf
-</pre>
-</dd></dl>
-
-Change <i>exec-once = swww-random ~/pictures/wallpapers &</i> to <i>exec-once = swww ~/path/to/img</i>
+Wallpaper change is automatically enabled via script. If the folder is empty the script can cause high cpu usage, so do not be surprised. To disable go to ~/.config/hypr/hyprland.conf and change <i>exec-once = swww-random ~/pictures/wallpapers &</i> to <i>exec-once = swww ~/path/to/img</i>
 
 You can also rebind or remove the key combination that cycles wallpapers in hyprland.conf. The relevant bind is <i>bind = CONTROL,         P,          exec,                   swww-next-wallpaper</i>
 
