@@ -1,4 +1,4 @@
-# Auto Install Script for Minimal Hyprland with Catppuccin Mocha Mauve Theme 
+# Install Script for Minimal Hyprland Mocha Mauve
 ## Important Notice
 Work in progress. Best done on a clean install of Arch Linux. Uses master tiling layout. 
 
