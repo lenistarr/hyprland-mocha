@@ -14,7 +14,7 @@ cp -r ~/hyprland-mocha/.config/* ~/.config/
 
 # Copy program and theme
 sudo cp -r ~/hyprland-mocha/themes/* /usr/share/themes/
-sudo cp -r scripts/* /usr/local/bin/
+sudo cp -r ~/hyprland-mocha/scripts/* /usr/local/bin/
 # sudo mv ~/hyprland-mocha/vconsole.conf /etc/vconsole.conf
 # sudo mv ~/hyprland-mocha/override.conf /etc/systemd/system/getty@tty1.service.d/
 # systemctl enable getty@tty1
