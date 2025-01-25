@@ -23,7 +23,7 @@
         },
 
         "hyprland/window": {
-                "max-length": 70,
+                "max-length": 60,
                 "rotate": 90
         },
  
@@ -109,7 +109,7 @@
     
        "backlight#2": {
               "format": "{icon}",
-              "format-icons": ["", "", "", "", "", "", "", "", ""]
+              "format-icons": ["", ""]
        },
 
        "group/time": {
