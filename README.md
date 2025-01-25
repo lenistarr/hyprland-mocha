@@ -1,5 +1,9 @@
 Work in progress.
 
+INSTALLATION
+```
+curl -LO github.com/lenistarr/hyprland-mocha/hyprland.setup.sh && chmod +x hyprland.setup.sh
+```
 Best done on a clean install of Arch.
 
 Keyboard layout and bindings are configured according to German/Croatian QWERTZ. Change it manually in .config/hypr/hyprland.conf under "kb_layout =".
