@@ -1,6 +1,6 @@
 ## Auto Install Script for Minimal Hyprland with Catppuccin Mocha Mauve Theme 
 # Important Notice
-Work in progress. Best done on a clean install of Arch.
+Work in progress. Best done on a clean install of Arch Linux.
 
 Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings.
 
@@ -18,7 +18,8 @@ Use the script at your own discretion.
 
 # Installation
 ```
-curl -LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/main/hyprland-setup.sh && chmod +x hyprland-setup.sh
+curl -LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/main/hyprland-setup.sh
+chmod +x hyprland-setup.sh
 sh hyprland-setup.sh
 ```
 # Other 
