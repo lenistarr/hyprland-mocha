@@ -3,7 +3,7 @@
 sudo pacman -Syu
 sudo pacman -S git
 git clone https://github.com/lenistarr/hyprland-mocha.git
-cp ~/hyprland-mocha/.bash-profile ~/
+cp ~/hyprland-mocha/.bash_profile ~/
 cp ~/hyprland-mocha/.bashrc ~/
 chmod +x ~/hyprland-mocha/scripts/*
 chmod +x ~/hyprland-mocha/.config/hypr/xdg-portal-hyprland 
