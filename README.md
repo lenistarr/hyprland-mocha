@@ -1,20 +1,28 @@
-Work in progress.
+## Auto Install Script for Minimal Hyprland with Catppuccin Mocha Mauve Theme 
+# Important!
+Work in progress. Best done on a clean install of Arch.
 
-INSTALLATION
+Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings.
+
+Wallpaper change is automatically enabled. If the folder is empty the script can cause high cpu usage so do not be surprised. To disable it, change the command in ~/.config/hypr/hyprland.conf from "exec-once = swww-random ~/pictures/wallpapers &" to "exec-once = swww ~/path/to/img" and then rebind or remove "bind = CONTROL,         P,          exec,                   swww-next-wallpaper". 
+
+Use at your own discretion.
+
+# Installation
 ```
 curl -LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/main/hyprland-setup.sh && chmod +x hyprland-setup.sh
 sh hyprland-setup.sh
 ```
-Best done on a clean install of Arch.
-
+# Other 
 Keyboard layout and bindings are configured according to German/Croatian QWERTZ. Change it manually in .config/hypr/hyprland.conf under "kb_layout =".
 
 Install Nvidia drivers manually. Install AUR manually.
 
-Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings.
+No display manager or logout functionality. Some non-essential features are missing. Uses master tiling layout. 
 
-No display manager or logout functionality. Scratchpad and some other features are missing. Uses master tiling layout. 
-
-Wallpaper change is automatically enabled. To disable it, change the command in ~/.config/hypr/hyprland.conf from "exec-once = swww-random ~/pictures/wallpapers &" to "exec-once = swww ~/path/to/img" and the rebind or remove "bind = CONTROL,         P,          exec,                   swww-next-wallpaper". 
-
-To modify the wallpaper change time: "vim /usr/local/bin/swww-random", change "INTERVAL=[seconds]".
+Modify the wallpaper change time: 
+<dl><dd>
+<pre>
+<b>vim /usr/local/bin/swww-random</b> # Change seconds to next image under <i>INTERVAL=[seconds]</i>
+</pre>
+</dd></dl>
