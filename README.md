@@ -2,7 +2,7 @@ Work in progress.
 
 Best done on a clean install of Arch.
 
-Keybindings are configured according to German/Croatian QWERTZ. Change it manually in .config/hypr/hyprland.conf under "kb_layout =".
+Keyboard layout and bindings are configured according to German/Croatian QWERTZ. Change it manually in .config/hypr/hyprland.conf under "kb_layout =".
 
 Install Nvidia drivers manually. Install AUR manually.
 
