@@ -3,6 +3,7 @@ Work in progress.
 INSTALLATION
 ```
 curl -LO github.com/lenistarr/hyprland-mocha/hyprland.setup.sh && chmod +x hyprland-setup.sh
+sh hyprland-setup.sh
 ```
 Best done on a clean install of Arch.
 
