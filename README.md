@@ -2,7 +2,7 @@
 ## Important Notice
 Work in progress. Best done on a clean install of Arch Linux. Uses master tiling layout. 
 
-Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings.
+Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings. Try the theme at https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-mauve-git/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search.
 
 Wallpaper change is automatically enabled via script. If the folder is empty the script can cause high cpu usage, so do not be surprised. To disable it:
 <dl><dd>
