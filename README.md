@@ -1,4 +1,4 @@
-# Install Script for Minimal Hyprland Mocha Mauve
+# Minimal Hyprland Mocha Mauve Setup
 ![screenshot-2025-01-25_22:30:08](https://github.com/user-attachments/assets/a4944ed3-3d02-467e-9137-cbf4f02399bf) ![screenshot-2025-01-25_22:32:35](https://github.com/user-attachments/assets/9e25829c-361f-4e05-bfbe-4f86e29fa621) 
 
 ## Important Notice
