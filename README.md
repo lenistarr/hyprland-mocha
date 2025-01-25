@@ -2,7 +2,7 @@ Work in progress.
 
 INSTALLATION
 ```
-curl -LO https://github.com/lenistarr/hyprland-mocha/blob/main/hyprland-setup.sh && chmod +x hyprland-setup.sh
+curl -LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/main/hyprland-setup.sh && chmod +x hyprland-setup.sh
 sh hyprland-setup.sh
 ```
 Best done on a clean install of Arch.
