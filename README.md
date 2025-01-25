@@ -1,5 +1,6 @@
 # Install Script for Minimal Hyprland Mocha Mauve
-![Uploading screenshot_2025-01-25.png…]()
+![screenshot_2025-01-25](https://github.com/user-attachments/assets/9790543a-5f05-47f9-87fa-6ee2408912f1)
+
 
 ## Important Notice
 Work in progress. Best done on a clean install of Arch Linux. Uses master tiling layout. 
