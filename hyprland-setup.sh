@@ -18,7 +18,7 @@ sudo cp -r scripts/* /usr/local/bin/
 # sudo mv ~/hyprland-mocha/vconsole.conf /etc/vconsole.conf
 # sudo mv ~/hyprland-mocha/override.conf /etc/systemd/system/getty@tty1.service.d/
 # systemctl enable getty@tty1
-rm -r hyprland-mocha
+sudo rm -r hyprland-mocha
 
 # Install programs
 sudo pacman -Syu
