@@ -11,6 +11,7 @@ sudo cp -r ~/scripts/* /usr/local/bin/
 rm -r ~/scripts
 # sudo mv ~/vconsole.conf /etc/vconsole.conf
 rm vconsole.conf
+rm LICENSE README.md
 sudo mv ~/override.conf /etc/systemd/system/getty@tty1.service.d/
 systemctl enable getty@tty1
 
