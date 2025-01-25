@@ -3,9 +3,10 @@
 Work in progress. Best done on a clean install of Arch.
 
 Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings.
+
+Wallpaper change is automatically enabled. If the folder is empty the script can cause high cpu usage so do not be surprised. To disable it
 <dl><dd>
 <pre>
-Wallpaper change is automatically enabled. If the folder is empty the script can cause high cpu usage so do not be surprised. To disable it
 ~/.config/hypr/hyprland.conf from "exec-once = swww-random ~/pictures/wallpapers &" to "exec-once = swww ~/path/to/img" and then rebind or remove "bind = CONTROL,         P,          exec,                   swww-next-wallpaper". 
 </pre>
 </dd></dl>
