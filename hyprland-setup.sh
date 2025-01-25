@@ -1,16 +1,17 @@
 #!/bin/bash
 # Basic home folder setup
 mkdir ~/documents ~/downloads ~/pictures ~/pictures/screenshots ~/pictures/wallpapers ~/videos
-mv ~/config/* ~/.config/*
+cp -r ~/config/* ~/.config/
 rm -r ~/config
 
 # Administration and customization
-sudo mv ~/themes/* /usr/share/themes/*
+sudo cp -r ~/themes/* /usr/share/themes/
 rm -r ~/themes
-sudo mv ~/scripts/* /usr/local/bin/*
+sudo cp -r ~/scripts/* /usr/local/bin/
 rm -r ~/scripts
-sudo mv ~/vconsole.conf /etc/vconsole.conf
-sudo mv ~/override.conf /etc/systemd/system/getty@tty1.service.d/*
+# sudo mv ~/vconsole.conf /etc/vconsole.conf
+rm vconsole.conf
+sudo mv ~/override.conf /etc/systemd/system/getty@tty1.service.d/
 systemctl enable getty@tty1
 
 # Install programs
@@ -20,5 +21,4 @@ sudo pacman -S brightnessctl cliphist fastfetch ffmpegthumbnailer file-roller fi
 # Unmount USBs and reboot
 sudo umount -a
 sync
-rm -r ~/usb
 reboot
