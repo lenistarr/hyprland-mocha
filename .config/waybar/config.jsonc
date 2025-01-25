@@ -109,7 +109,7 @@
     
        "backlight#2": {
               "format": "{icon}",
-              "format-icons": ["", ""]
+              "format-icons": ["", ""]
        },
 
        "group/time": {
