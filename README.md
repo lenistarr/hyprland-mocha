@@ -23,9 +23,4 @@ Install Nvidia drivers manually. Install AUR manually.
 
 This install has no display manager or logout functionality since I do not use them. Some non-essential hyprland features and binds are missing. 
 
-Modify the wallpaper change time: 
-<dl><dd>
-<pre>
-sudo vim /usr/local/bin/swww-random <i># Change seconds to next image under INTERVAL=[seconds]</i>
-</pre>
-</dd></dl>
+To modify the wallpaper change time,  edit /usr/local/bin/swww-random and change seconds to next image under INTERVAL=[seconds]</i>.
