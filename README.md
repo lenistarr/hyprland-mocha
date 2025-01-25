@@ -11,7 +11,8 @@ vim ~/.config/hypr/hyprland.conf #
 </pre>
 </dd></dl>
  Change <i>exec-once = swww-random ~/pictures/wallpapers &</i> to <i>exec-once = swww ~/path/to/img</i>
-You can also rebind or remove the key combination in hyprland.conf that cycles wallpapers. The relevant bind is:  <i>bind = CONTROL,         P,          exec,                   swww-next-wallpaper </i>
+ 
+You can also rebind or remove the key combination in hyprland.conf that cycles wallpapers. The relevant bind is <i>bind = CONTROL,         P,          exec,                   swww-next-wallpaper </i>
 
 Use the script at your own discretion.
 
