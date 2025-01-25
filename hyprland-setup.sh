@@ -9,7 +9,8 @@ chmod +x ~/hyprland-mocha/scripts/*
 chmod +x ~/hyprland-mocha/.config/hypr/xdg-portal-hyprland
 
 # Home folder setup
-mkdir ~/documents ~/downloads ~/pictures ~/pictures/screenshots ~/pictures/wallpapers ~/videos
+mv ~/hyprland-mocha/pictures ~/
+mkdir ~/documents ~/downloads ~/pictures/screenshots ~/videos
 mv ~/hyprland-mocha/.config ~/
 
 # Copy program and theme
