@@ -1,3 +1,4 @@
+font=IBMPlexSans 12
 sort=-time
 layer=top
 background-color=#414559
@@ -10,4 +11,4 @@ icons=1
 max-icon-size=64
 default-timeout=5000
 ignore-timeout=1
-font=IBMPlexSans 12
+
