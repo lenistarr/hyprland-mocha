@@ -7,7 +7,23 @@ curl -LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/m
 chmod +x hyprland-setup.sh
 sh hyprland-setup.sh
 ```
+### For Nvidia graphics card users:
+```
+curl - LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/main/hyprland-setup-nvidia.sh
+chmod +x hyprland-setup-nvidia.sh
+sh hyprland-setup-nvidia.sh
+```
+Edit /etc/mkinitcpio.conf. In the MODULES array, add the following module names:
+/etc/mkinitcpio.conf
 
+MODULES=(... nvidia nvidia_modeset nvidia_uvm nvidia_drm ...)
+
+Then, create and edit /etc/modprobe.d/nvidia.conf. Add this line to the file:
+/etc/modprobe.d/nvidia.conf
+
+options nvidia_drm modeset=1 fbdev=1
+
+Lastly, rebuild the initramfs with sudo mkinitcpio -P, and reboot.
 ## Important Notice
 Work in progress. Best done on a clean install of Arch Linux. Uses master tiling layout. 
 
