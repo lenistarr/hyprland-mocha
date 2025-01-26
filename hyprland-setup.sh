@@ -14,7 +14,7 @@ mkdir ~/documents ~/downloads ~/music ~/pictures/screenshots ~/videos
 mv ~/hyprland-mocha/.config ~/
 rm ~/.config/hypr/hyprland-nvidia.conf
 
-# Copy program and theme
+# Copy programs and theme
 sudo mkdir /usr/share/themes/catppuccin-mocha-mauve
 sudo mv ~/hyprland-mocha/themes/catppuccin-mocha-mauve/* /usr/share/themes/catppuccin-mocha-mauve/
 sudo mv ~/hyprland-mocha/scripts/* /usr/local/bin/
