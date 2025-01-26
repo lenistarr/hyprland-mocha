@@ -3,8 +3,8 @@
 sudo pacman -Syu
 sudo pacman -S git
 git clone https://github.com/lenistarr/hyprland-mocha.git
-cp ~/hyprland-mocha/.bash_profile ~/
-cp ~/hyprland-mocha/.bashrc ~/
+mv ~/hyprland-mocha/.bash_profile ~/
+mv ~/hyprland-mocha/.bashrc ~/
 chmod +x ~/hyprland-mocha/scripts/*
 chmod +x ~/hyprland-mocha/.config/hypr/xdg-portal-hyprland
 
@@ -14,8 +14,8 @@ mkdir ~/documents ~/downloads ~/pictures/screenshots ~/videos
 mv ~/hyprland-mocha/.config ~/
 
 # Copy program and theme
-sudo cp -r ~/hyprland-mocha/themes/* /usr/share/themes/
-sudo cp -r ~/hyprland-mocha/scripts/* /usr/local/bin/
+sudo mv ~/hyprland-mocha/themes/catppuccin-mocha-mauve /usr/share/themes/
+sudo mv ~/hyprland-mocha/scripts/* /usr/local/bin/
 # sudo mv ~/hyprland-mocha/vconsole.conf /etc/vconsole.conf
 # sudo mkdir /etc/systemd/system/getty@tty1.service.d
 # sudo mv ~/hyprland-mocha/override.conf /etc/systemd/system/getty@tty1.service.d/
