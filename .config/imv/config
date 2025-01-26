@@ -2,7 +2,7 @@
 [options]
 suppress_default_binds = true
 background = 262626
-overlay_font = IBMPlex 12
+overlay_font = IBMPlexSans 12
 
 [aliases]
 q = quit
