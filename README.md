@@ -16,7 +16,7 @@ sh hyprland-setup-nvidia.sh
 ```
 Edit /etc/mkinitcpio.conf. In the MODULES array, add the following module names: 
 
-<i>MODULES=(... nvidia nvidia_modeset nvidia_uvm nvidia_drm ...)</i>
+<i>MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)</i>
 
 Then, create and edit /etc/modprobe.d/nvidia.conf. Add this line to the file: 
 
