@@ -1,4 +1,4 @@
-set font IBMPlex 12
+set font IBMPlexSans 12
 set sandbox none
 set statusbar-h-padding 0
 set statusbar-v-padding 0
