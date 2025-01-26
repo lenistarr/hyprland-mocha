@@ -15,9 +15,9 @@ mv ~/hyprland-mocha/.config ~/
 mv ~/.config/hypr/hyprland-nvidia.conf ~/.config/hypr/hyprland.conf
 
 # Copy program and theme
-sudo mv ~/hyprland-mocha/themes/catppuccin-mocha-mauve /usr/share/themes/
+sudo mkdir /usr/share/themes/catppuccin-mocha-mauve
+sudo mv ~/hyprland-mocha/themes/catppuccin-mocha-mauve/* /usr/share/themes/catppuccin-mocha-mauve/
 sudo mv ~/hyprland-mocha/scripts/* /usr/local/bin/
-# sudo mv ~/hyprland-mocha/vconsole.conf /etc/vconsole.conf
 # sudo mkdir /etc/systemd/system/getty@tty1.service.d
 # sudo mv ~/hyprland-mocha/override.conf /etc/systemd/system/getty@tty1.service.d/
 # sudo systemctl enable getty@tty1
