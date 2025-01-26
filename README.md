@@ -41,8 +41,6 @@ You can also rebind or remove the key combination that cycles wallpapers in hypr
 
 <i>bind = CONTROL,         P,          exec,                   swww-next-wallpaper</i>
 
-Use the script at your own discretion.
-
 ## Other 
 The keyboard layout and bindings are configured according to the German/Croatian QWERTZ layout. Change it manually in ~/.config/hypr/hyprland.conf:
 
