@@ -1,5 +1,5 @@
 # Minimal Hyprland Mocha Mauve Setup
-![screenshot_2025-01-25_230554](https://github.com/user-attachments/assets/5795174c-0954-41e8-839e-b3b48ff0d6bb) ![screenshot_2025-01-25_223235](https://github.com/user-attachments/assets/a2fc2f52-e917-42fd-ab0d-5b881658b4d9)
+![screenshot_2025-01-25_230554](https://github.com/user-attachments/assets/5795174c-0954-41e8-839e-b3b48ff0d6bb) ![screenshot_2025-01-26_033356](https://github.com/user-attachments/assets/5b9003d1-9b0d-424a-a77e-90400656f4f2)
 
 ## Installation
 ```
