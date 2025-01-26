@@ -12,6 +12,7 @@ chmod +x ~/hyprland-mocha/.config/hypr/xdg-portal-hyprland
 mv ~/hyprland-mocha/pictures ~/
 mkdir ~/documents ~/downloads ~/pictures/screenshots ~/videos
 mv ~/hyprland-mocha/.config ~/
+rm ~/.config/hypr/hyprland-nvidia.conf
 
 # Copy program and theme
 sudo mv ~/hyprland-mocha/themes/catppuccin-mocha-mauve /usr/share/themes/
