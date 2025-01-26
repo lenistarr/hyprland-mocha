@@ -10,7 +10,7 @@ chmod +x ~/hyprland-mocha/.config/hypr/xdg-portal-hyprland
 
 # Home folder setup
 mv ~/hyprland-mocha/pictures ~/
-mkdir ~/documents ~/downloads ~/pictures/screenshots ~/videos
+mkdir ~/documents ~/downloads ~/music ~/pictures/screenshots ~/videos
 mv ~/hyprland-mocha/.config ~/
 mv ~/hyprland-mocha/.config/hypr/hyprland-nvidia.conf ~/.config/hypr/hyprland.conf
 
