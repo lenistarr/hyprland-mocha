@@ -12,6 +12,7 @@ chmod +x ~/hyprland-mocha/.config/hypr/xdg-portal-hyprland
 mv ~/hyprland-mocha/pictures ~/
 mkdir ~/documents ~/downloads ~/music ~/pictures/screenshots ~/videos
 mv ~/hyprland-mocha/.config ~/
+mv ~/hyprland-mocha/.local ~/
 rm ~/.config/hypr/hyprland-nvidia.conf
 
 # Copy programs and theme
