@@ -1,5 +1,5 @@
 * {
-        font-family: FontAwesome, IBMPlex;
+        font-family: FontAwesome, IBMPlexSans;
         font-size: 14px;
         color: @text_color;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 1.0)  @theme_text_color;
