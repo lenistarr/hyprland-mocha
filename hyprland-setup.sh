@@ -13,6 +13,7 @@ mv ~/hyprland-mocha/pictures ~/
 mkdir ~/documents ~/downloads ~/music ~/pictures/screenshots ~/videos
 mv ~/hyprland-mocha/.config ~/
 mv ~/hyprland-mocha/.local ~/
+mv ~/hyprland-mocha/.shaders ~/
 rm ~/.config/hypr/hyprland-nvidia.conf
 
 # Copy programs and theme
