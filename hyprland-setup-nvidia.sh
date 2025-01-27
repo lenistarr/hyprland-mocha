@@ -17,7 +17,7 @@ mv ~/hyprland-mocha/.local/bin ~/.local/
 mv ~/hyprland-mocha/.themes ~/
 mv ~/.config/hypr/hyprland-nvidia.conf ~/.config/hypr/hyprland.conf
 
-# Copy programs and theme
+# Disable username on tty
 sudo mkdir /etc/systemd/system/getty@tty1.service.d
 sudo mv ~/hyprland-mocha/override.conf /etc/systemd/system/getty@tty1.service.d/
 sudo systemctl enable getty@tty1
