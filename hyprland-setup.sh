@@ -1,7 +1,5 @@
 #!/bin/bash
 # Basic setup and permissions
-cp -r ~/ ~/home-backup
-rm ~/home-backup/hyprland-setup.sh
 sudo pacman -Syu
 sudo pacman -S git
 git clone https://github.com/lenistarr/hyprland-mocha.git
@@ -14,7 +12,7 @@ chmod +x ~/hyprland-mocha/.config/hypr/xdg-portal-hyprland
 mv ~/hyprland-mocha/pictures ~/
 mkdir ~/documents ~/downloads ~/music ~/pictures/screenshots ~/videos
 mv ~/hyprland-mocha/.config ~/
-mv ~/hyprland-mocha/.local/applications ~/
+mv ~/hyprland-mocha/.local/share/applications ~/.local/share/
 rm ~/.config/hypr/hyprland-nvidia.conf
 
 # Copy programs and theme
