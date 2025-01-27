@@ -8,12 +8,13 @@ chmod +x hyprland-setup.sh
 sh hyprland-setup.sh
 ```
 ### Install for Nvidia GPU
-Script will install nvidia-open-dkms, if you have and older GPU, change the package accordingly in the script. 
 ```
 curl - LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/main/hyprland-setup-nvidia.sh
 chmod +x hyprland-setup-nvidia.sh
 sh hyprland-setup-nvidia.sh
 ```
+The script will install nvidia-open-dkms, if you have an older GPU, change the nvidia package accordingly in the script. 
+
 Edit /etc/mkinitcpio.conf. In the MODULES array, add the following module names: 
 
 <i>MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)</i>
