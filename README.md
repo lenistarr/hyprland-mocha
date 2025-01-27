@@ -13,21 +13,18 @@ curl - LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/
 chmod +x hyprland-setup-nvidia.sh
 sh hyprland-setup-nvidia.sh
 ```
+
 The script will install nvidia-open-dkms, if you have an older GPU, change the nvidia package accordingly in the script. 
-
-Edit /etc/mkinitcpio.conf. In the MODULES array, add the following module names: 
-
-<i>MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)</i>
-
-Then, create and edit /etc/modprobe.d/nvidia.conf. Add this line to the file: 
-
-<i>options nvidia_drm modeset=1 fbdev=1</i>
-
-Rebuild the initramfs with: 
-```
+<dl><dd>
+<pre>
+sudo vim /etc/mkinitcpio.conf <i># In the MODULES array, add the following module names:
+        MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)</i>
+sudo vim /etc/modprobe.d/nvidia.conf # <i>Write the following:
+        options nvidia_drm modeset=1 fbdev=1</i>
 sudo mkinitcpio -P
 reboot
-```
+</pre>
+</dd></dl>
 
 ## Important Notice
 Work in progress. Run on clean install of Arch Linux. Uses master tiling layout. 
