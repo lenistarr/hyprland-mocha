@@ -16,7 +16,6 @@ mv ~/hyprland-mocha/.local/share/applications ~/.local/share/
 mv ~/.config/hypr/hyprland-nvidia.conf ~/.config/hypr/hyprland.conf
 
 # Copy programs and theme
-sudo mkdir /usr/share/themes/catppuccin-mocha-mauve
 sudo mv ~/hyprland-mocha/scripts/* /usr/local/bin/
 sudo mkdir /etc/systemd/system/getty@tty1.service.d
 sudo mv ~/hyprland-mocha/override.conf /etc/systemd/system/getty@tty1.service.d/
