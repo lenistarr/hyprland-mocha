@@ -1,5 +1,6 @@
 #!/bin/bash
 # Basic setup and permissions
+cp -r ~/ ~/home-backup
 sudo pacman -Syu
 sudo pacman -S git
 git clone https://github.com/lenistarr/hyprland-mocha.git
