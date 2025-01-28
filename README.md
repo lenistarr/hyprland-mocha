@@ -69,6 +69,6 @@ To modify the wallpaper change time:
 <dl><dd>
 <pre>
 vim ~/.local/bin/swww-random
-         INTERVAL=[seconds]</i>
+         <i>INTERVAL=[seconds]</i>
 </pre>
 </dd></dl>
