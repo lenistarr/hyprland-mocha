@@ -72,3 +72,8 @@ vim ~/.local/bin/swww-random
          <i>INTERVAL=[seconds]</i>
 </pre>
 </dd></dl>
+
+## Default Keybindings
+- Mod+Enter – Spawn terminal 
+- Mod+q – Close window
+- Mod+d – wofi
