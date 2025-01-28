@@ -7,7 +7,7 @@ curl -LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/m
 chmod +x hyprland-setup.sh
 sh hyprland-setup.sh
 ```
-### Install for Nvidia GPU
+### Installation for Nvidia GPU
 ```
 curl - LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/main/hyprland-setup-nvidia.sh
 chmod +x hyprland-setup-nvidia.sh
@@ -27,17 +27,26 @@ reboot
 </dd></dl>
 
 ## Important Notice
-Work in progress. Run on clean install of Arch Linux. Uses master tiling layout. 
+Work in progress. Backup your home folder before installing. Best run on clean install of Arch Linux. Uses master tiling layout. 
 
-Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings. Try the theme at https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-mauve-git/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search.
+Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings. Get the theme at https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-mauve-git/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search.
 
-Wallpaper change is automatically enabled via script. If the folder is empty the script can cause high cpu usage, so do not be surprised. To disable it go to ~/.config/hypr/hyprland.conf and change:
-
-<i>exec-once = swww-random ~/pictures/wallpapers &</i> becomes <i>exec-once = swww ~/path/to/img</i>
+Wallpaper change is automatically enabled via script. If the folder is empty the script can cause high cpu usage, so do not be surprised. To disable it:
+<dl><dd>
+<pre>
+vim ~/.config/hypr/hyprland.conf <i># Change:
+        exec-once = swww-random ~/pictures/wallpapers &
+becomes
+        exec-once = swww ~/path/to/img &</i>
+</pre>
+</dd></dl>
 
 You can also rebind or remove the key combination that cycles wallpapers in hyprland.conf. The relevant bind is:
-
+<dl><dd>
+<pre>
 <i>bind = CONTROL,         P,          exec,                   swww-next-wallpaper</i>
+</pre>
+</dd></dl>
 
 ## Other 
 The keyboard layout and bindings are configured according to the German/Croatian QWERTZ layout. Change it manually in ~/.config/hypr/hyprland.conf:
