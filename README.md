@@ -10,7 +10,7 @@ sh hyprland-setup.sh
 ### For Nvidia GPUs
 The following script will install nvidia-open-dkms, if you have an older GPU, change the nvidia package accordingly in the script. 
 ```
-curl - LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/main/hyprland-setup-nvidia.sh
+curl -LO https://raw.githubusercontent.com/lenistarr/hyprland-mocha/refs/heads/main/hyprland-setup-nvidia.sh
 chmod +x hyprland-setup-nvidia.sh
 sh hyprland-setup-nvidia.sh
 ```
