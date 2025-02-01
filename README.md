@@ -116,5 +116,131 @@ zathura-pdf-poppler – pdf support for zathura
 
 ## Default Keybindings
 Mod+Enter – Spawn terminal  
-Mod+q – Close window  
-Mod+d – Start wofi
+Mod+Q – Close window  
+Mod+Shift+Q – Exit hyprland  
+Mod+W – Launch web browser  
+Mod+E – Launch file manager  
+Mod+D – Launch wofi  
+Mod+R – Launch system monitor
+
+### Show desktop and cycle wallpaper
+Control+Dstroke – Next wallpaper  
+Control+Scaron – Hide waybar and show desktop
+
+### Restart waybar
+Mod+Shift+B – Restart waybar
+
+### Night light
+Mod+F9 – Turn on night light  
+Mod+F10 – Turn off night light
+
+### Screenshot
+bind = , Print, exec, grim -g "$(slurp)" - | wl-copy && wl-paste > ~/pictures/screenshots/screenshot_$(date +%F_%T).png | notify-send "Screenshot of the region taken" ### Screenshot region
+bind = $mainMod, Print, exec, grim - | wl-copy && wl-paste > ~/pictures/screenshots/screenshot_$(date +%F_%T).png | notify-send "Screenshot of whole screen taken" ### Screenshot full
+
+### Show clipboard history
+bind = $mainMod, P, exec, cliphist list | wofi --show dmenu -H 600 -W 900 | cliphist decode | wl-copy ### Show clipboard history
+
+### Session
+bind = $mainMod, Backspace, exec, shutdown now
+bind = $mainMod SHIFT, Backspace, exec, reboot
+
+### Window management
+bind = $mainMod, J, layoutmsg, cyclenext ### Cycle focus to next window in stack
+bind = $mainMod, down, layoutmsg, cyclenext
+bind = $mainMod, Tab, cyclenext
+bind = $mainMod, Tab, bringactivetotop
+bind = $mainMod, K, layoutmsg, cycleprev ### Cycle focus to previous window in stack
+bind = $mainMod, up, layoutmsg, cycleprev
+bind = $mainMod SHIFT, J, layoutmsg, swapnext ### Swap focused window with next window in stack
+bind = $mainMod SHIFT, K, layoutmsg, swapprev ### Swap focused window with previous window in stack
+
+### Resize horizontal stack
+bind = $mainMod, H, resizeactive, -5 0
+bind = $mainMod, left, resizeactive, -5 0
+bind = $mainMod, L, resizeactive, 5 0
+bind = $mainMod, right, resizeactive, 5 0
+
+### Resize vertical stack
+bind = $mainMod SHIFT, H, resizeactive, 0 20
+bind = $mainMod SHIFT, left, resizeactive, 0 20
+bind = $mainMod SHIFT, L, resizeactive, 0 -20
+bind = $mainMod SHIFT, right, resizeactive, 0 -20
+
+### Focus master
+bind = $mainMod, C, layoutmsg, focusmaster ### Focus master window
+bind = $mainMod, X, layoutmsg, removemaster ### Remove focused window from the master stack
+bind = $mainMod, SPACE, layoutmsg, swapwithmaster auto ### Swap with master automatically
+
+### Fullscreen
+bind = $mainMod, F, fullscreen
+bind = $mainMod SHIFT, F, fullscreenstate
+
+### Monocle
+bind = $mainMod, G, togglegroup
+
+### Floating
+bind = $mainMod SHIFT, SPACE, togglefloating
+bind = $mainMod SHIFT, SPACE, centerwindow
+
+### Special workspaces
+bind = $mainMod, grave, togglespecialworkspace, scratchpad
+bind = $mainMod SHIFT, grave, movetoworkspace, special:scratchpad
+bind = $mainMod, S, togglespecialworkspace, magic
+bind = $mainMod SHIFT, S, movetoworkspace, special:magic
+bind = $mainMod, apostrophe, togglespecialworkspace, spcalc
+bind = $mainMod SHIFT, apostrophe, movetoworkspace, special:spcalc
+
+### Focus monitor
+bind = $mainMod, comma, focusmonitor, -1
+bind = $mainMod, period, focusmonitor, +1
+
+### Move window to monitor
+bind = $mainMod SHIFT, comma, movewindow, mon:-1
+bind = $mainMod SHIFT, period, movewindow, mon:+1
+
+### Switch workspaces with mainMod + [0-9]
+bind = $mainMod, 1, workspace, 1
+bind = $mainMod, 2, workspace, 2
+bind = $mainMod, 3, workspace, 3
+bind = $mainMod, 4, workspace, 4
+bind = $mainMod, 5, workspace, 5
+bind = $mainMod, 6, workspace, 6
+bind = $mainMod, 7, workspace, 7
+bind = $mainMod, 8, workspace, 8
+bind = $mainMod, 9, workspace, 9
+bind = $mainMod, 0, workspace, 10
+
+### Move active window to a workspace with mainMod + SHIFT + [0-9]
+bind = $mainMod SHIFT, 1, movetoworkspace, 1
+bind = $mainMod SHIFT, 2, movetoworkspace, 2
+bind = $mainMod SHIFT, 3, movetoworkspace, 3
+bind = $mainMod SHIFT, 4, movetoworkspace, 4
+bind = $mainMod SHIFT, 5, movetoworkspace, 5
+bind = $mainMod SHIFT, 6, movetoworkspace, 6
+bind = $mainMod SHIFT, 7, movetoworkspace, 7
+bind = $mainMod SHIFT, 8, movetoworkspace, 8
+bind = $mainMod SHIFT, 9, movetoworkspace, 9
+bind = $mainMod SHIFT, 0, movetoworkspace, 10
+
+### Scroll through existing workspaces with mainMod + scroll
+bind = $mainMod, mouse_down, workspace, e+1
+bind = $mainMod, mouse_up, workspace, e-1
+
+### Move/resize windows with mainMod + LMB/RMB and dragging
+bindm = $mainMod, mouse:272, movewindow
+bindm = $mainMod, mouse:273, resizewindow
+
+### Laptop multimedia keys
+bindel = , XF86AudioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+bindel = , XF86AudioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
+bindel = , XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+bindel = , XF86AudioMicMute, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
+bindel = , XF86MonBrightnessUp, exec, brightnessctl s 10%+
+bindel = , XF86MonBrightnessDown, exec, brightnessctl s 10%-
+
+### Bindings for playerctl
+bindl = , XF86AudioNext, exec, playerctl next
+bindl = , XF86AudioPause, exec, playerctl play-pause
+bindl = , XF86AudioPlay, exec, playerctl play-pause
+bindl = , XF86AudioPrev, exec, playerctl previous
