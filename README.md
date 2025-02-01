@@ -117,18 +117,18 @@ zathura-pdf-poppler – pdf support for zathura
 ## Default Keybindings
 Mod+Enter – Spawn terminal  
 Mod+Q – Close window  
-Mod+Shift+Q – Exit hyprland  
+Mod+Shift+Q – Exit Hyprland  
 Mod+W – Launch web browser  
 Mod+E – Launch file manager  
-Mod+D – Launch wofi  
+Mod+D – Launch Wofi  
 Mod+R – Launch system monitor
 
 ### Show desktop and cycle wallpaper
 Control+Dstroke – Next wallpaper  
-Control+Scaron – Hide waybar and show desktop
+Control+Scaron – Hide Waybar and show desktop
 
 ### Restart waybar
-Mod+Shift+B – Restart waybar
+Mod+Shift+B – Restart Waybar
 
 ### Night light
 Mod+F9 – Turn on night light  
@@ -169,56 +169,21 @@ Mod+SPACE – Swap with master automatically
 Mod+F – Make focused window fullscreen  
 Mod+Shift+F – Maximize focused window
 
-### Monocle
-Mod+G – Toggle group
-
 ### Floating
 Mod+Shift+Space – Toggle floating and center window
 
-### Special workspaces
-bind = $mainMod, grave, togglespecialworkspace, scratchpad
-bind = $mainMod SHIFT, grave, movetoworkspace, special:scratchpad
-bind = $mainMod, S, togglespecialworkspace, magic
-bind = $mainMod SHIFT, S, movetoworkspace, special:magic
-bind = $mainMod, apostrophe, togglespecialworkspace, spcalc
-bind = $mainMod SHIFT, apostrophe, movetoworkspace, special:spcalc
+### Monitor
+Mod+Period – Focus next monitor  
+Mod+Comma – Focus previous monitor  
+Mod+Shift+Period – Move window to next monitor  
+Mod+Shift+Comma – Move window to previous monitor
 
-### Focus monitor
-bind = $mainMod, comma, focusmonitor, -1
-bind = $mainMod, period, focusmonitor, +1
+### Workspaces
+Mod+[0-9] – Switch workspaces  
+Mod+Shift+[0-9] – Move active window to a workspace
 
-### Move window to monitor
-bind = $mainMod SHIFT, comma, movewindow, mon:-1
-bind = $mainMod SHIFT, period, movewindow, mon:+1
-
-### Switch workspaces with mainMod + [0-9]
-bind = $mainMod, 1, workspace, 1
-bind = $mainMod, 2, workspace, 2
-bind = $mainMod, 3, workspace, 3
-bind = $mainMod, 4, workspace, 4
-bind = $mainMod, 5, workspace, 5
-bind = $mainMod, 6, workspace, 6
-bind = $mainMod, 7, workspace, 7
-bind = $mainMod, 8, workspace, 8
-bind = $mainMod, 9, workspace, 9
-bind = $mainMod, 0, workspace, 10
-
-### Move active window to a workspace with mainMod + SHIFT + [0-9]
-bind = $mainMod SHIFT, 1, movetoworkspace, 1
-bind = $mainMod SHIFT, 2, movetoworkspace, 2
-bind = $mainMod SHIFT, 3, movetoworkspace, 3
-bind = $mainMod SHIFT, 4, movetoworkspace, 4
-bind = $mainMod SHIFT, 5, movetoworkspace, 5
-bind = $mainMod SHIFT, 6, movetoworkspace, 6
-bind = $mainMod SHIFT, 7, movetoworkspace, 7
-bind = $mainMod SHIFT, 8, movetoworkspace, 8
-bind = $mainMod SHIFT, 9, movetoworkspace, 9
-bind = $mainMod SHIFT, 0, movetoworkspace, 10
-
-### Scroll through existing workspaces with mainMod + scroll
-bind = $mainMod, mouse_down, workspace, e+1
-bind = $mainMod, mouse_up, workspace, e-1
-
-### Move/resize windows with mainMod + LMB/RMB and dragging
-bindm = $mainMod, mouse:272, movewindow
-bindm = $mainMod, mouse:273, resizewindow
+### Mouse bindings
+Mod+Mouse Wheel Down – Scroll down through existing workspaces  
+Mod+Mouse Wheel Up – Scroll up through existing workspaces  
+Mod+Mouse Right Click – Move window around  
+Mod+Mouse Left Click – Resize window
