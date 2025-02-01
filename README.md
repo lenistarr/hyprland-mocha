@@ -135,11 +135,11 @@ Mod+F9 – Turn on night light
 Mod+F10 – Turn off night light
 
 ### Screenshot
-bind = , Print, exec, grim -g "$(slurp)" - | wl-copy && wl-paste > ~/pictures/screenshots/screenshot_$(date +%F_%T).png | notify-send "Screenshot of the region taken" ### Screenshot region
-bind = $mainMod, Print, exec, grim - | wl-copy && wl-paste > ~/pictures/screenshots/screenshot_$(date +%F_%T).png | notify-send "Screenshot of whole screen taken" ### Screenshot full
+Print – Screenshot region  
+Mod+Print – Screenshot full
 
 ### Show clipboard history
-bind = $mainMod, P, exec, cliphist list | wofi --show dmenu -H 600 -W 900 | cliphist decode | wl-copy ### Show clipboard history
+Mod+P – Show clipboard history
 
 ### Session
 bind = $mainMod, Backspace, exec, shutdown now
