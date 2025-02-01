@@ -54,7 +54,7 @@ button:hover {
 #workspaces button.urgent {
         background-color: transparent;
         color: #ff0000;
-        border-radius: 0ipx;
+        border-radius: 0px;
 }
 
 #button
