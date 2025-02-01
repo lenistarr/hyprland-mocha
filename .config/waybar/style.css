@@ -35,7 +35,7 @@ button:hover {
 }
 
 #workspaces button:hover {
-        border: 0px solid rgba(0,255,167,0.0);
+        border: 5px solid rgba(0,255,167,0.0);
         border-radius: 0px;
 }
 
