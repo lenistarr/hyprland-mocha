@@ -74,47 +74,47 @@ vim ~/.local/bin/swww-random
 </dd></dl>
 
 ## Installed Packages
-brightnessctl - controls brightness levels
-cliphist - logs clipboard history
-fastfetch - shows system information
-ffmpegthumbnailer - makes video thumbnails in the file browser
-file-roller - archive extraction tool
-firefox - web browser
-grim - screenshot utility
-gvfs - usb mounting and trash functionality
-htop - system monitor
-hyprland - window manager
-imv - image viewer
-keepassxc - password manager (very blurry on NVIDIA for some reason, stil useable)
-kitty - terminal emulator 
-mako - notification daemon
-mpv - media player
-network-manager-applet - waybar applet for networks
-nm-connection-editor - GUI network manager 
-nwg-look - GTK themer
-pavucontrol - GUI audio control 
-polkit-gnome - authentication agent 
-pipewire - audio processor
-pipewire-pulse - extra package for pipeweire
-slurp - screenshot utility for capturing a screen region
-swww - wallpaper daemon
-tela-circle-icon-theme-purple - icon theme
-thunar - GUI file manager
-thunar-archive-plugin - enables right-click to extract archives in Thunar
-transmission-gtk - GUI torrent client
-ttf-ibm-plex - default system font
-ttf-font-awesome - font for tray icons
-tumbler - needed for thunar to display video thumbnails
-waybar - system status bar
-wireplumber - manages audio devices with pipewire
-wlsunset - sets night mode
-wofi - program launcher
-xdg-desktop-portal-hyprland -  Desktop integration portal 
-yt-dlp - youtube media downloader
-zathura - document viewer
-zathura-pdf-poppler - pdf support for zathura
+brightnessctl - controls brightness levels  
+cliphist - logs clipboard history  
+fastfetch - shows system information  
+ffmpegthumbnailer - makes video thumbnails in the file browser  
+file-roller - archive extraction tool  
+firefox - web browser  
+grim - screenshot utility  
+gvfs - usb mounting and trash functionality  
+htop - system monitor  
+hyprland - window manager  
+imv - image viewer  
+keepassxc - password manager (very blurry on NVIDIA for some reason, stil useable)  
+kitty - terminal emulator  
+mako - notification daemon  
+mpv - media player  
+network-manager-applet - waybar applet for networks  
+nm-connection-editor - GUI network manager  
+nwg-look - GTK themer  
+pavucontrol - GUI audio control  
+polkit-gnome - authentication agent  
+pipewire - audio processor  
+pipewire-pulse - extra package for pipeweire  
+slurp - screenshot utility for capturing a screen region  
+swww - wallpaper daemon  
+tela-circle-icon-theme-purple - icon theme  
+thunar - GUI file manager  
+thunar-archive-plugin - enables right-click to extract archives in Thunar  
+transmission-gtk - GUI torrent client  
+ttf-ibm-plex - default system font  
+ttf-font-awesome - font for tray icons  
+tumbler - needed for thunar to display video thumbnails  
+waybar - system status bar  
+wireplumber - manages audio devices with pipewire  
+wlsunset - sets night mode  
+wofi - program launcher  
+xdg-desktop-portal-hyprland -  Desktop integration portal  
+yt-dlp - youtube media downloader  
+zathura - document viewer  
+zathura-pdf-poppler - pdf support for zathura  
 
 ## Default Keybindings
-- Mod+Enter – Spawn terminal 
-- Mod+q – Close window
-- Mod+d – wofi
+Mod+Enter - Spawn terminal  
+Mod+q - Close window  
+Mod+d - wofi  
