@@ -152,24 +152,24 @@ Mod+K/Up – Cycle focus to previous window in stack
 Mod+Shift+J – Swap focused window with next window in stack  
 Mod+Shift+K – Swap focused window with previous window in stack
 
-### Resize horizontal stack
+#### Resize horizontal stack
 Mod+H/Left – Increase width of master window  
 Mod+L/Right – Decrease width of master window
 
-### Resize vertical stack
+#### Resize vertical stack
 Mod+Shift+H/Left – Increase height of master window  
 Mod+Shift+L/Right – Decrease height of master window
 
-### Focus master
+#### Focus master
 Mod+C – Focus master window  
 Mod+X – Remove focused window from the master stack  
 Mod+SPACE – Swap with master automatically
 
-### Fullscreen
+#### Fullscreen
 Mod+F – Make focused window fullscreen  
 Mod+Shift+F – Maximize focused window
 
-### Floating
+#### Floating
 Mod+Shift+Space – Toggle floating and center window
 
 ### Monitor
