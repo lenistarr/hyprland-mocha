@@ -142,24 +142,19 @@ Mod+Print – Screenshot full
 Mod+P – Show clipboard history
 
 ### Session
-bind = $mainMod, Backspace, exec, shutdown now
-bind = $mainMod SHIFT, Backspace, exec, reboot
+Mod+Backspace – Shutdown  
+Mod+Shift+Backspace – Reboot 
 
 ### Window management
-bind = $mainMod, J, layoutmsg, cyclenext ### Cycle focus to next window in stack
-bind = $mainMod, down, layoutmsg, cyclenext
-bind = $mainMod, Tab, cyclenext
-bind = $mainMod, Tab, bringactivetotop
-bind = $mainMod, K, layoutmsg, cycleprev ### Cycle focus to previous window in stack
-bind = $mainMod, up, layoutmsg, cycleprev
-bind = $mainMod SHIFT, J, layoutmsg, swapnext ### Swap focused window with next window in stack
-bind = $mainMod SHIFT, K, layoutmsg, swapprev ### Swap focused window with previous window in stack
+Mod+J/Down – Cycle focus to next window in stack  
+Mod+Tab – Bring active to top  
+Mod+K/Up – Cycle focus to previous window in stack  
+Mod+Shift+J – Swap focused window with next window in stack  
+Mod+Shift+K – Swap focused window with previous window in stack
 
 ### Resize horizontal stack
-bind = $mainMod, H, resizeactive, -5 0
-bind = $mainMod, left, resizeactive, -5 0
-bind = $mainMod, L, resizeactive, 5 0
-bind = $mainMod, right, resizeactive, 5 0
+Mod+H/Left – Increase width of master window  
+Mod+L/Right – Decrease width of master window
 
 ### Resize vertical stack
 bind = $mainMod SHIFT, H, resizeactive, 0 20
