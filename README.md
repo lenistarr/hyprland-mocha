@@ -157,26 +157,23 @@ Mod+H/Left – Increase width of master window
 Mod+L/Right – Decrease width of master window
 
 ### Resize vertical stack
-bind = $mainMod SHIFT, H, resizeactive, 0 20
-bind = $mainMod SHIFT, left, resizeactive, 0 20
-bind = $mainMod SHIFT, L, resizeactive, 0 -20
-bind = $mainMod SHIFT, right, resizeactive, 0 -20
+Mod+Shift+H/Left – Increase height of master window  
+Mod+Shift+L/Right – Decrease height of master window
 
 ### Focus master
-bind = $mainMod, C, layoutmsg, focusmaster ### Focus master window
-bind = $mainMod, X, layoutmsg, removemaster ### Remove focused window from the master stack
-bind = $mainMod, SPACE, layoutmsg, swapwithmaster auto ### Swap with master automatically
+Mod+C – Focus master window  
+Mod+X – Remove focused window from the master stack  
+Mod+SPACE – Swap with master automatically
 
 ### Fullscreen
-bind = $mainMod, F, fullscreen
-bind = $mainMod SHIFT, F, fullscreenstate
+Mod+F – Make focused window fullscreen  
+Mod+Shift+F – Maximize focused window
 
 ### Monocle
-bind = $mainMod, G, togglegroup
+Mod+G – Toggle group
 
 ### Floating
-bind = $mainMod SHIFT, SPACE, togglefloating
-bind = $mainMod SHIFT, SPACE, centerwindow
+Mod+Shift+Space – Toggle floating and center window
 
 ### Special workspaces
 bind = $mainMod, grave, togglespecialworkspace, scratchpad
@@ -225,17 +222,3 @@ bind = $mainMod, mouse_up, workspace, e-1
 ### Move/resize windows with mainMod + LMB/RMB and dragging
 bindm = $mainMod, mouse:272, movewindow
 bindm = $mainMod, mouse:273, resizewindow
-
-### Laptop multimedia keys
-bindel = , XF86AudioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
-bindel = , XF86AudioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
-bindel = , XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
-bindel = , XF86AudioMicMute, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
-bindel = , XF86MonBrightnessUp, exec, brightnessctl s 10%+
-bindel = , XF86MonBrightnessDown, exec, brightnessctl s 10%-
-
-### Bindings for playerctl
-bindl = , XF86AudioNext, exec, playerctl next
-bindl = , XF86AudioPause, exec, playerctl play-pause
-bindl = , XF86AudioPlay, exec, playerctl play-pause
-bindl = , XF86AudioPrev, exec, playerctl previous
