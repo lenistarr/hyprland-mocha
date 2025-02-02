@@ -123,6 +123,8 @@ Mod+W – Launch web browser
 Mod+E – Launch file manager  
 Mod+D – Launch Wofi  
 Mod+R – Launch system monitor
+Mod+T – Launch email client
+Mod+V – Launch password manager
 
 ### Show desktop and cycle wallpaper
 Control+Dstroke – Next wallpaper  
