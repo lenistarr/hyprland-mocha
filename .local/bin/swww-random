@@ -14,12 +14,12 @@ INTERVAL=30
 while true; do
         find "$1" \
                 | while read -r img; do
-                        echo "$((RANDOM % 17960)):$img"
+                        echo "$((RANDOM % 300)):$img"
                 done \
                 | sort -n | cut -d':' -f2- \
                 | while read -r img; do
         if [[ "$img" != "$1" ]]; then
-                swww img "$img"
+                swww img --resize fit "$img"
                 sleep $INTERVAL
         fi
         done
