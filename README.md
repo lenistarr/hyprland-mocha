@@ -101,6 +101,7 @@ swww – wallpaper daemon
 tela-circle-icon-theme-purple – icon theme  
 thunar – GUI file manager  
 thunar-archive-plugin – enables right-click to extract archives in Thunar  
+thunderbird – email client
 transmission-gtk – GUI torrent client  
 ttf-ibm-plex – default system font  
 ttf-font-awesome – font for tray icons  
