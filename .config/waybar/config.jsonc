@@ -123,12 +123,12 @@
        "clock": {
               "interval": 1,
               "format": "{:%H}",
-              "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+              "tooltip-format": "<tt><small>{calendar}</small></tt>"
        },
 
        "clock#2": {
               "interval": 1,
               "format": "{:%M}",
-              "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+              "tooltip-format": "<tt><small>{calendar}</small></tt>"
        }
 }
