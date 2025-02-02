@@ -127,8 +127,8 @@ Mod+R – Launch system monitor
 Control+Dstroke – Next wallpaper  
 Control+Scaron – Hide Waybar and show desktop
 
-### Restart waybar
-Mod+Shift+B – Restart Waybar
+### Waybar
+Mod+B – Hide Waybar
 
 ### Night light
 Mod+F9 – Turn on night light  
