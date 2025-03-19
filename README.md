@@ -25,7 +25,7 @@ reboot
 </dd></dl>
 
 ## Important Notice
-Work in progress. Backup your home folder before installing. Best run on a clean install of Arch Linux. Uses master tiling layout. 
+Work in progress. Backup your home folder before installing. Best done on a clean install of Arch Linux. Uses master tiling layout. 
 
 Change GTK theme manually in nwg-looks. Change Firefox theme manually in Firefox settings. Get the theme at https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-mauve-git/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search.
 
